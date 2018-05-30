@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'DoHyeon';
+    font-style: normal;
+    font-weight: 400;
+    src: local('※'),
+        url('../fonts/DoHyeon.woff2') format('woff2'), 
+        url('../fonts/DoHyeon.woff') format('woff'),
+        url('../fonts/DoHyeon.ttf') format('truetype'),
+        url('../fonts/DoHyeon.otf') format('opentype'),
+        url('../fonts/DoHyeon.eot') format('embedded-opentype');
+}
+
+::-webkit-scrollbar {
+	display:none;
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+	min-height: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	-ms-overflow-style: none; 
+}
+
+
+.wrapper {
+	width: 6920px;
+	height: 980px;
+	min-height: 980px;
+	background: url(../images/bg.png) no-repeat left center;
+	position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
