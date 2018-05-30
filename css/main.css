@@ -53,11 +53,49 @@ body {
     width: 495px;
     height: 224px;
     background: url(../images/scene1/bd01.png) no-repeat left center;
+    z-index: 1;
+}
+
+#bd01-door {
+    position: absolute;
+    left: 100px;
+    bottom: 184px;
+    width: 72px;
+    height: 152px;
+    background: url(../images/scene1/bd01_door.png) no-repeat left center;
+    z-index: 2;
+}
+
+#bd01-window1 {
+    position: absolute;
+    left: 200px;
+    bottom: 184px;
+    width: 326px;
+    height: 148px;
+    background: url(../images/scene1/bd01_window.png) no-repeat left center;
+    z-index: 2;
+}
+
+#bd01-light1 {
+    position: absolute;
+    left: 280px;
+    bottom: 184px;
+    width: 51px;
+    height: 160px;
+    background: url(../images/scene1/bd01_light.png) no-repeat left center;
+    z-index: 3;
 }
 
 
-
-
+#bd01-light2 {
+    position: absolute;
+    left: 390px;
+    bottom: 184px;
+    width: 51px;
+    height: 160px;
+    background: url(../images/scene1/bd01_light.png) no-repeat left center;
+    z-index: 3;
+}
 
 
 
