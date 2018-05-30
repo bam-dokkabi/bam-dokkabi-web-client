@@ -6,7 +6,7 @@ $(function() {
 	scrollTarget.mousewheel(function(event, delta){
 		if(!(navigator.appVersion.indexOf("Mac")!=-1)) {
 			if(wheelScroll=="noPop"){
-				$(this).stop().animate({scrollLeft: (this.scrollLeft-(delta * 1000))}, 10,"linear");
+				$(this).stop().animate({scrollLeft: (this.scrollLeft-(delta * 600))}, 10,"linear");
 			} else{
 				if(delta<0) {$(".popup").stop().animate({scrollTop:"+=200"},100); deltaWaling="next"; }
 					else {$(".popup").stop().animate({scrollTop:"-=200"},100); deltaWaling="prev"}

@@ -24,8 +24,17 @@ body {
 	margin: 0;
 	padding: 0;
 	-ms-overflow-style: none; 
+    background-color: #040214;
 }
 
+#container {
+    position: absolute;
+    z-index: 200;
+    bottom: 0;
+    margin: 0px;
+    left: 0;
+    padding: 0;
+}
 
 .wrapper {
 	width: 6920px;
@@ -33,6 +42,17 @@ body {
 	min-height: 980px;
 	background: url(../images/bg.png) no-repeat left center;
 	position: relative;
+}
+
+
+
+#bd01 {
+    position: absolute;
+    left:73px;
+    bottom: 178px;
+    width: 495px;
+    height: 224px;
+    background: url(../images/scene01/bd01.png) no-repeat left center;
 }
 
 
