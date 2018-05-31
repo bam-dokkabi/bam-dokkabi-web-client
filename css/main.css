@@ -107,15 +107,15 @@ body {
     position: absolute;
     left:200px;
     bottom:184px;
-    width:326px;
-    height:148px;
+    width:340px;
+    height:154px;
     z-index:2;
     overflow: hidden;
 }
 
 .bd01-window1 {
     position: absolute;
-    left: 0px;
+    left: 2px;
     bottom: 0px;
     width: 326px;
     height: 148px;
@@ -126,10 +126,11 @@ body {
 .bd01-window2 {
     position: absolute;
     left: 0px;
-    bottom: 0px;
-    width:400px;
-    height:146px;
+    bottom: -2px;
+    width:330px;
+    height:152px;
     background: url(../images/scene1/bd01_window2.png) no-repeat left center;
+    background-size: cover;
     z-index: 4;
 }
 
@@ -153,7 +154,6 @@ body {
     z-index: 3;
 }
 
-
 .bd01-light3 {
     position: absolute;
     left: 190px;
@@ -164,7 +164,18 @@ body {
     z-index: 3;
 }
 
+.bd01-title {
+    position: absolute;
+    left: 170px;
+    bottom: 402px;
+    width:285px;
+    height: 49px;
+    background: url(../images/scene1/bd01_title.png) no-repeat left center;
+    z-index: 3;
+}
 
+
+/*** font-test ***/
 .font-test1 {
     position: absolute;
     left: 100px;
