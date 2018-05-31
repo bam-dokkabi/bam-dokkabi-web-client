@@ -62,120 +62,114 @@ body {
     background-color: #040214;
 }
 
-#container {
-    position: absolute;
-    z-index: 200;
-    bottom: 0;
-    margin: 0px;
-    left: 0;
-    padding: 0;
-}
+#container {position: absolute;z-index: 200;bottom: 0;margin: 0px;left: 0;padding: 0;}
 
-.wrapper {
-	width: 6920px;
-	height: 980px;
-	min-height: 980px;
-	background: url(../images/bg.png) no-repeat left center;
-	position: relative;
-}
+.wrapper {width: 6920px;height: 980px;min-height: 980px;background: url(../images/bg.png) no-repeat left center;position: relative;}
 
 
 /*** scene1 ***/
 /* bd01 */
 
-.bd01 {
-    position: absolute;
-    left:73px;
-    bottom: 178px;
-    width: 495px;
-    height: 224px;
-    background: url(../images/scene1/bd01.png) no-repeat left center;
-    z-index: 1;
-}
+.bd01 {position: absolute;left:73px;bottom: 178px;width: 495px;height: 224px;background: url(../images/scene1/bd01.png) no-repeat left center;z-index: 1;}
 
-.bd01-door {
-    position: absolute;
-    left: 100px;
-    bottom: 184px;
-    width: 72px;
-    height: 152px;
-    background: url(../images/scene1/bd01_door.png) no-repeat left center;
-    z-index: 2;
-}
+.bd01-door {position: absolute;left: 100px;bottom: 184px;width: 72px;height: 152px;background: url(../images/scene1/bd01_door.png) no-repeat left center;z-index: 2;}
 
-.bd01-window-frame {
-    position: absolute;
-    left:200px;
-    bottom:184px;
-    width:340px;
-    height:154px;
-    z-index:2;
-    overflow: hidden;
-}
+.bd01-window-frame {position: absolute;left:200px;bottom:184px;width:340px;height:154px;z-index:2;overflow: hidden;}
 
-.bd01-window1 {
-    position: absolute;
-    left: 2px;
-    bottom: 0px;
-    width: 326px;
-    height: 148px;
-    background: url(../images/scene1/bd01_window.png) no-repeat left center;
-    z-index: 2;
-}
+.bd01-window1 {position: absolute;left: 2px;bottom: 0px;width: 326px;height: 148px;background: url(../images/scene1/bd01_window.png) no-repeat left center;z-index: 2;}
 
-.bd01-window2 {
-    position: absolute;
-    left: 0px;
-    bottom: -2px;
-    width:330px;
-    height:152px;
-    background: url(../images/scene1/bd01_window2.png) no-repeat left center;
-    background-size: cover;
-    z-index: 4;
-}
+.bd01-window2 {position: absolute;left: 0px;bottom: -2px;width:330px;height:152px;background: url(../images/scene1/bd01_window2.png) no-repeat left center;background-size: cover;z-index: 4;}
 
-.bd01-light1 {
-    position: absolute;
-    left: -25px;
-    bottom: 0px;
-    width: 51px;
-    height: 160px;
-    background: url(../images/scene1/bd01_light.png) no-repeat left center;
-    z-index: 3;
-}
+.bd01-light1 {position: absolute;left: -25px;bottom: 0px;width: 51px;height: 160px;background: url(../images/scene1/bd01_light.png) no-repeat left center;z-index: 3;}
 
-.bd01-light2 {
-    position: absolute;
-    left: 80px;
-    bottom: 0px;
-    width: 51px;
-    height: 160px;
-    background: url(../images/scene1/bd01_light.png) no-repeat left center;
-    z-index: 3;
-}
+.bd01-light2 {position: absolute;left: 80px;bottom: 0px;width: 51px;height: 160px;background: url(../images/scene1/bd01_light.png) no-repeat left center;z-index: 3;}
 
-.bd01-light3 {
-    position: absolute;
-    left: 190px;
-    bottom: 0px;
-    width: 51px;
-    height: 160px;
-    background: url(../images/scene1/bd01_light.png) no-repeat left center;
-    z-index: 3;
-}
+.bd01-light3 {position: absolute;left: 190px;bottom: 0px;width: 51px;height: 160px;background: url(../images/scene1/bd01_light.png) no-repeat left center;z-index: 3;}
 
-.bd01-title {
-    position: absolute;
-    left: 170px;
-    bottom: 402px;
-    width:285px;
-    height: 49px;
-    background: url(../images/scene1/bd01_title.png) no-repeat left center;
-    z-index: 3;
-}
+.bd01-title {position: absolute;left: 170px;bottom: 402px;width:285px;height: 49px;background: url(../images/scene1/bd01_title.png) no-repeat left center;z-index: 3;}
 
+.bd01-road-light {position: absolute;left: 60px;bottom: 146px;width: 70px;height: 280px;background: url(../images/main/road_light.png) no-repeat left center;z-index: 4;}
+
+.bd01-road-light2 {position: absolute;left: 67px;bottom: 210px;width: 90px;height: 210px;background: url(../images/main/road_light02.png) no-repeat left center;z-index: 5;}
+
+.people01 {position: absolute;left: 220px;bottom: 135px;width: 65px;height: 100px;background: url(../images/main/h01.png) no-repeat left center;z-index: 5;}
+
+.people02 {position: absolute;left: 410px;bottom: 135px;width: 85px;height: 125px;background: url(../images/main/h02.png) no-repeat left center;z-index: 5;}
+
+/*stadium*/
+
+.stadium {position: absolute;left:680px;bottom: 178px;width: 685px;height: 260px;background: url(../images/scene1/stadium.png) no-repeat left center;z-index: 2;}
+
+.stadium-light1 {position: absolute;left:780px;bottom: 310px;width: 90px;height: 300px;transform: rotate(-20deg);background: url(../images/scene1/stadium_light01.png) no-repeat left center;z-index: 1;}
+
+.stadium-light2 {position: absolute;left:720px;bottom: 320px;width: 80px;height: 280px;transform: rotate(-55deg);background: url(../images/scene1/stadium_light02.png) no-repeat left center;z-index: 1;}
+
+.stadium-light3 {position: absolute;left:1235px;bottom: 320px;width: 90px;height: 300px;transform: rotate(35deg);background: url(../images/scene1/stadium_light03.png) no-repeat left center;z-index: 1;}
+
+/*tent01*/
+
+.tent01 {position: absolute;left: 820px;bottom: 160px;width: 600px;height: 165px;z-index: 3;}
+
+.tent01_01 {position: absolute;left: 0px;bottom: 0px;width: 170px;height: 165px;background: url(../images/main/tent.png) no-repeat left center;z-index: 4;}
+
+.tent01_02 {position: absolute;left: 175px;bottom: 0px;width: 170px;height: 165px;background: url(../images/main/tent.png) no-repeat left center;z-index: 4;}
+
+.tent01_03 {position: absolute;left: 350px;bottom: 0px;width: 170px;height: 165px;background: url(../images/main/tent.png) no-repeat left center;z-index: 4;}
+
+.people03 {position: absolute;left: 945px;bottom: 123px;width: 65px;height: 100px;background: url(../images/main/h03.png) no-repeat left center;z-index: 5;}
+
+.people04 {position: absolute;left: 1045px;bottom: 125px;width: 65px;height: 100px;background: url(../images/main/h04.png) no-repeat left center;z-index: 5;}
+
+/*truck01*/
+
+.truck01 {position: absolute;left: 500px;bottom: 130px;width: 390px;height: 190px;background: url(../images/scene1/truck01.png) no-repeat left center;z-index: 5;}
+
+/*bd02*/
+
+.bd02 {position: absolute;left:1360px;bottom: 178px;width: 350px;height: 225px;background: url(../images/scene1/bd02.png) no-repeat left center;z-index: 1;}
+
+.bd02-window1 {position: absolute;left: 25px;bottom: 138px;width: 40px;height: 20px;background: url(../images/scene1/bd02_window.png) no-repeat left center;z-index: 2;}
+
+.bd02-window2 {position: absolute;left: 67px;bottom: 138px;width: 40px;height: 20px;background: url(../images/scene1/bd02_window.png) no-repeat left center;z-index: 2;}
+
+.bd02-window3 {position: absolute;left: 129px;bottom: 138px;width: 40px;height: 20px;background: url(../images/scene1/bd02_window.png) no-repeat left center;z-index: 2;}
+
+.bd02-window4 {position: absolute;left: 171px;bottom: 138px;width: 40px;height: 20px;background: url(../images/scene1/bd02_window.png) no-repeat left center;z-index: 2;}
+
+.bd02-window5 {position: absolute;left: 235px;bottom: 138px;width: 40px;height: 20px;background: url(../images/scene1/bd02_window.png) no-repeat left center;z-index: 2;}
+
+.bd02-window6 {position: absolute;left: 277px;bottom: 138px;width: 40px;height: 20px;background: url(../images/scene1/bd02_window.png) no-repeat left center;z-index: 2;}
+
+.bd02-window7 {position: absolute;left: 25px;bottom: 88px;width: 40px;height: 20px;background: url(../images/scene1/bd02_window2.png) no-repeat left center;z-index: 2;}
+
+.bd02-window8 {position: absolute;left: 67px;bottom: 88px;width: 40px;height: 20px;background: url(../images/scene1/bd02_window2.png) no-repeat left center;z-index: 2;}
+
+.bd02-window9 {position: absolute;left: 129px;bottom: 88px;width: 40px;height: 20px;background: url(../images/scene1/bd02_window2.png) no-repeat left center;z-index: 2;}
+
+.bd02-window10 {position: absolute;left: 171px;bottom: 88px;width: 40px;height: 20px;background: url(../images/scene1/bd02_window2.png) no-repeat left center;z-index: 2;}
+
+.bd02-window11 {position: absolute;left: 25px;bottom: 38px;width: 40px;height: 20px;background: url(../images/scene1/bd02_window.png) no-repeat left center;z-index: 2;}
+
+.bd02-window12 {position: absolute;left: 67px;bottom: 38px;width: 40px;height: 20px;background: url(../images/scene1/bd02_window.png) no-repeat left center;z-index: 2;}
+
+.bd02-window13 {position: absolute;left: 129px;bottom: 38px;width: 40px;height: 20px;background: url(../images/scene1/bd02_window2.png) no-repeat left center;z-index: 2;}
+
+.bd02-window14 {position: absolute;left: 171px;bottom: 38px;width: 40px;height: 20px;background: url(../images/scene1/bd02_window2.png) no-repeat left center;z-index: 2;}
+
+.bd02-road-light {position: absolute;left: 1335px;bottom: 146px;width: 70px;height: 280px;background: url(../images/main/road_light.png) no-repeat left center;z-index: 4;}
+
+.bd02-road-light2 {position: absolute;left: 1342px;bottom: 210px;width: 90px;height: 210px;background: url(../images/main/road_light02.png) no-repeat left center;z-index: 5;}
+
+/*tent02*/
+
+.tent02 {position: absolute;left: 1460px;bottom: 100px;width: 450px;height: 165px;z-index: 3;}
+
+.tent02_01 {position: absolute;left: 0px;bottom: 0px;width: 170px;height: 165px;background: url(../images/main/tent.png) no-repeat left center;z-index: 4;}
+
+.tent02_02 {position: absolute;left: 175px;bottom: 0px;width: 170px;height: 165px;background: url(../images/main/tent.png) no-repeat left center;z-index: 4;}
 
 /*** font-test ***/
+/* 
 .font-test1 {
     position: absolute;
     left: 100px;
@@ -217,6 +211,7 @@ body {
     font-style: normal;
     z-index: 10;
 }
+ */
 
 
 
