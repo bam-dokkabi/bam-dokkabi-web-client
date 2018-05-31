@@ -1,8 +1,9 @@
+/* font */
 @font-face {
     font-family: 'DoHyeon';
     font-style: normal;
     font-weight: 400;
-    src: local('※'),
+    src: local('DoHyeon'),
         url('../fonts/DoHyeon.woff2') format('woff2'), 
         url('../fonts/DoHyeon.woff') format('woff'),
         url('../fonts/DoHyeon.ttf') format('truetype'),
@@ -10,10 +11,37 @@
         url('../fonts/DoHyeon.eot') format('embedded-opentype');
 }
 
+@font-face {
+    font-family: 'SandollGothicB';
+    font-style: normal;
+    font-weight: 400;
+    src: local('SandollGothicB'),
+        url('../fonts/SandollGothicB.ttf') fortmat('truetype')
+}
+
+@font-face {
+    font-family: 'SandollGothicL';
+    font-style: normal;
+    font-weight: 400;
+    src: local('SandollGothicL'),
+        url('../fonts/SandollGothicL.ttf') fortmat('truetype')
+}
+
+@font-face {
+    font-family: 'SandollGothicM';
+    font-style: normal;
+    font-weight: 400;
+    src: local('SandollGothicM'),
+        url('../fonts/SandollGothicM.ttf') fortmat('truetype')
+}
+
+/* to get rid of scroll bar */
 ::-webkit-scrollbar {
 	display:none;
 }
 
+
+/* html, body, container, wrapper */
 html, body {
 	width: 100%;
 	height: 100%;
@@ -45,8 +73,10 @@ body {
 }
 
 
+/*** scene1 ***/
+/* bd01 */
 
-#bd01 {
+.bd01 {
     position: absolute;
     left:73px;
     bottom: 178px;
@@ -56,7 +86,7 @@ body {
     z-index: 1;
 }
 
-#bd01-door {
+.bd01-door {
     position: absolute;
     left: 100px;
     bottom: 184px;
@@ -66,20 +96,50 @@ body {
     z-index: 2;
 }
 
-#bd01-window1 {
+.bd01-window-frame {
     position: absolute;
-    left: 200px;
-    bottom: 184px;
+    left:200px;
+    bottom:184px;
+    width:326px;
+    height:148px;
+    z-index:2;
+    overflow: hidden;
+}
+
+.bd01-window1 {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
     width: 326px;
     height: 148px;
     background: url(../images/scene1/bd01_window.png) no-repeat left center;
     z-index: 2;
 }
 
-#bd01-light1 {
+.bd01-window2 {
     position: absolute;
-    left: 280px;
-    bottom: 184px;
+    left: 0px;
+    bottom: 0px;
+    width:400px;
+    height:146px;
+    background: url(../images/scene1/bd01_window2.png) no-repeat left center;
+    z-index: 4;
+}
+
+.bd01-light1 {
+    position: absolute;
+    left: -25px;
+    bottom: 0px;
+    width: 51px;
+    height: 160px;
+    background: url(../images/scene1/bd01_light.png) no-repeat left center;
+    z-index: 3;
+}
+
+.bd01-light2 {
+    position: absolute;
+    left: 80px;
+    bottom: 0px;
     width: 51px;
     height: 160px;
     background: url(../images/scene1/bd01_light.png) no-repeat left center;
@@ -87,16 +147,25 @@ body {
 }
 
 
-#bd01-light2 {
+.bd01-light3 {
     position: absolute;
-    left: 390px;
-    bottom: 184px;
+    left: 190px;
+    bottom: 0px;
     width: 51px;
     height: 160px;
     background: url(../images/scene1/bd01_light.png) no-repeat left center;
     z-index: 3;
 }
 
+
+.font-test {
+    width: 500px;
+    height: 100px;
+    font-family: 'SandollGothicB';
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+}
 
 
 
