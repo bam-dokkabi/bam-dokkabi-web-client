@@ -168,6 +168,14 @@ body {
 
 .tent02_02 {position: absolute;left: 175px;bottom: 0px;width: 170px;height: 165px;background: url(../images/main/tent.png) no-repeat left center;z-index: 4;}
 
+/*container01*/
+
+.con01 {position: absolute;left:1750px;bottom: 178px;width: 450px;height: 295px;background: url(../images/scene1/container01.png) no-repeat left center;z-index: 3;}
+
+.con01_door {position: absolute;left:20px;bottom:8px;width: 45px;height: 102px;background: url(../images/scene1/container01_h.png) no-repeat left center;z-index: 4;}
+
+.national {position: absolute;left: 2150px;bottom: 230px;width: 550px;height: 265px;background: url(../images/scene2/national.png) no-repeat left center;z-index: 2;}
+
 /*** font-test ***/
 /* 
 .font-test1 {
