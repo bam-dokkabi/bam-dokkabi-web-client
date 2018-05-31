@@ -1,8 +1,10 @@
+/*** font ***/
+/* DoHyeon */
 @font-face {
     font-family: 'DoHyeon';
     font-style: normal;
     font-weight: 400;
-    src: local('※'),
+    src: local('DoHyeon'),
         url('../fonts/DoHyeon.woff2') format('woff2'), 
         url('../fonts/DoHyeon.woff') format('woff'),
         url('../fonts/DoHyeon.ttf') format('truetype'),
@@ -10,10 +12,43 @@
         url('../fonts/DoHyeon.eot') format('embedded-opentype');
 }
 
+/* SandollGothicB */
+@font-face {
+    font-family: 'SandollGothicB';
+    font-style: normal;
+    font-weight: 400;
+    src: local('SandollGothicB'),
+        url('../fonts/SandollGothicB.ttf') format('truetype'),
+        url('../fonts/SandollGothicB.otf') format('opentype')
+}
+
+/* SandollGothicL */
+@font-face {
+    font-family: 'SandollGothicL';
+    font-style: normal;
+    font-weight: 400;
+    src: local('SandollGothicL'),
+        url('../fonts/SandollGothicL.ttf') format('truetype'),
+        url('../fonts/SandollGothicL.otf') format('opentype')
+}
+
+/* SandollGothicM */
+@font-face {
+    font-family: 'SandollGothicM';
+    font-style: normal;
+    font-weight: 400;
+    src: local('SandollGothicM'),
+        url('../fonts/SandollGothicM.ttf') format('truetype')
+        url('../fonts/SandollGothicM.otf') format('opentype')
+}
+
+/* to get rid of scroll bar */
 ::-webkit-scrollbar {
 	display:none;
 }
 
+
+/* html, body, container, wrapper */
 html, body {
 	width: 100%;
 	height: 100%;
@@ -45,21 +80,143 @@ body {
 }
 
 
+/*** scene1 ***/
+/* bd01 */
 
-#bd01 {
+.bd01 {
     position: absolute;
     left:73px;
     bottom: 178px;
     width: 495px;
     height: 224px;
     background: url(../images/scene1/bd01.png) no-repeat left center;
+    z-index: 1;
+}
+
+.bd01-door {
+    position: absolute;
+    left: 100px;
+    bottom: 184px;
+    width: 72px;
+    height: 152px;
+    background: url(../images/scene1/bd01_door.png) no-repeat left center;
+    z-index: 2;
+}
+
+.bd01-window-frame {
+    position: absolute;
+    left:200px;
+    bottom:184px;
+    width:340px;
+    height:154px;
+    z-index:2;
+    overflow: hidden;
+}
+
+.bd01-window1 {
+    position: absolute;
+    left: 2px;
+    bottom: 0px;
+    width: 326px;
+    height: 148px;
+    background: url(../images/scene1/bd01_window.png) no-repeat left center;
+    z-index: 2;
+}
+
+.bd01-window2 {
+    position: absolute;
+    left: 0px;
+    bottom: -2px;
+    width:330px;
+    height:152px;
+    background: url(../images/scene1/bd01_window2.png) no-repeat left center;
+    background-size: cover;
+    z-index: 4;
+}
+
+.bd01-light1 {
+    position: absolute;
+    left: -25px;
+    bottom: 0px;
+    width: 51px;
+    height: 160px;
+    background: url(../images/scene1/bd01_light.png) no-repeat left center;
+    z-index: 3;
+}
+
+.bd01-light2 {
+    position: absolute;
+    left: 80px;
+    bottom: 0px;
+    width: 51px;
+    height: 160px;
+    background: url(../images/scene1/bd01_light.png) no-repeat left center;
+    z-index: 3;
+}
+
+.bd01-light3 {
+    position: absolute;
+    left: 190px;
+    bottom: 0px;
+    width: 51px;
+    height: 160px;
+    background: url(../images/scene1/bd01_light.png) no-repeat left center;
+    z-index: 3;
+}
+
+.bd01-title {
+    position: absolute;
+    left: 170px;
+    bottom: 402px;
+    width:285px;
+    height: 49px;
+    background: url(../images/scene1/bd01_title.png) no-repeat left center;
+    z-index: 3;
 }
 
 
+/*** font-test ***/
+.font-test1 {
+    position: absolute;
+    left: 100px;
+    top: 200px;
+    width: 500px;
+    height: 100px;
+    font-family: 'SandollGothicB';
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    z-index: 10;
+}
 
+.font-test2 {
+    position: absolute;
+    left: 100px;
+    top: 300px;
+    width: 500px;
+    height: 100px;
+    font-family: 'SandollGothicL';
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    z-index: 10;
+}
 
-
-
+.font-test3 {
+    position: absolute;
+    left: 100px;
+    top: 400px;
+    width: 500px;
+    height: 100px;
+    font-family: 'SandollGothicM';
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    z-index: 10;
+}
 
 
 
