@@ -1,4 +1,5 @@
-/* font */
+/*** font ***/
+/* DoHyeon */
 @font-face {
     font-family: 'DoHyeon';
     font-style: normal;
@@ -11,28 +12,34 @@
         url('../fonts/DoHyeon.eot') format('embedded-opentype');
 }
 
+/* SandollGothicB */
 @font-face {
     font-family: 'SandollGothicB';
     font-style: normal;
     font-weight: 400;
     src: local('SandollGothicB'),
-        url('../fonts/SandollGothicB.ttf') fortmat('truetype')
+        url('../fonts/SandollGothicB.ttf') format('truetype'),
+        url('../fonts/SandollGothicB.otf') format('opentype')
 }
 
+/* SandollGothicL */
 @font-face {
     font-family: 'SandollGothicL';
     font-style: normal;
     font-weight: 400;
     src: local('SandollGothicL'),
-        url('../fonts/SandollGothicL.ttf') fortmat('truetype')
+        url('../fonts/SandollGothicL.ttf') format('truetype'),
+        url('../fonts/SandollGothicL.otf') format('opentype')
 }
 
+/* SandollGothicM */
 @font-face {
     font-family: 'SandollGothicM';
     font-style: normal;
     font-weight: 400;
     src: local('SandollGothicM'),
-        url('../fonts/SandollGothicM.ttf') fortmat('truetype')
+        url('../fonts/SandollGothicM.ttf') format('truetype')
+        url('../fonts/SandollGothicM.otf') format('opentype')
 }
 
 /* to get rid of scroll bar */
@@ -158,7 +165,7 @@ body {
 }
 
 
-.font-test {
+.font-test1 {
     position: absolute;
     left: 100px;
     top: 200px;
@@ -172,6 +179,33 @@ body {
     z-index: 10;
 }
 
+.font-test2 {
+    position: absolute;
+    left: 100px;
+    top: 300px;
+    width: 500px;
+    height: 100px;
+    font-family: 'SandollGothicL';
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    z-index: 10;
+}
+
+.font-test3 {
+    position: absolute;
+    left: 100px;
+    top: 400px;
+    width: 500px;
+    height: 100px;
+    font-family: 'SandollGothicM';
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    z-index: 10;
+}
 
 
 
